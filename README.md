@@ -18,9 +18,9 @@ An explorable ASCII fantasy world with horses, animated water and grass, changin
 
 ## Gameplay video
 
-[![Watch the supplied gameplay video](The-Last-Warden-Integrated/screenshots/night-rain.png)](The-Last-Warden-Integrated/media/gameplay-demo.mp4)
+[![Watch the supplied gameplay video](The-Last-Warden-Integrated/screenshots/night-rain.png)](https://github.com/bharathkrishna0/Last-Gaurdian/raw/refs/heads/main/The-Last-Warden-Integrated/media/gameplay-demo.mp4)
 
-[Watch or download the gameplay video (MP4)](The-Last-Warden-Integrated/media/gameplay-demo.mp4). The video was supplied by the project owner; the screenshots show the current build.
+[Watch or download the gameplay video (MP4)](https://github.com/bharathkrishna0/Last-Gaurdian/raw/refs/heads/main/The-Last-Warden-Integrated/media/gameplay-demo.mp4). The video was supplied by the project owner; the screenshots show the current build.
 
 ## Run locally
 

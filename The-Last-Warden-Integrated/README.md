@@ -10,9 +10,9 @@ The supplied HTML world provides the map and coordinate system. Terrain is rende
 
 ![A rainy night battle near the village](screenshots/night-rain.png)
 
-[![Watch the supplied gameplay video](screenshots/night-rain.png)](media/gameplay-demo.mp4)
+[![Watch the supplied gameplay video](screenshots/night-rain.png)](https://github.com/bharathkrishna0/Last-Gaurdian/raw/refs/heads/main/The-Last-Warden-Integrated/media/gameplay-demo.mp4)
 
-[Watch or download the gameplay video (MP4)](media/gameplay-demo.mp4). The video was supplied by the project owner; the screenshots above show this updated build.
+[Watch or download the gameplay video (MP4)](https://github.com/bharathkrishna0/Last-Gaurdian/raw/refs/heads/main/The-Last-Warden-Integrated/media/gameplay-demo.mp4). The video was supplied by the project owner; the screenshots above show this updated build.
 
 ## Run
 

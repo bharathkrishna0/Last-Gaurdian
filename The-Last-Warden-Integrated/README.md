@@ -1,6 +1,18 @@
-# The Last Warden — integrated world
+# The Last Warden — integrated ASCII world
 
-This build uses the supplied `the_last_warden_ascii_bestiary_world.html` as its world. Terrain, roads, water, village buildings, lairs, landmarks, minimap, and world map remain in the original coordinate system. The original wilderness demo background is no longer used.
+The supplied HTML world provides the map and coordinate system. Terrain is rendered with smaller, denser ASCII cells while roads, river, lake, village, castle, lairs, landmarks, and minimaps retain their original positions. Water, reeds, trees, fires, and boats animate independently of the cached terrain. Grass blades sway with passing wind gusts. Rain falls for about 20 seconds in each 90-second weather cycle, during either day or night. Rain is visual and does not change combat or movement.
+
+## Screenshots and video
+
+![Warden's Hollow village in daylight, with dense ASCII terrain and the village horse](screenshots/village-day.png)
+
+![The world map showing the castle, lake, marsh, lairs, roads, and horse locations](screenshots/world-map.png)
+
+![A rainy night battle near the village](screenshots/night-rain.png)
+
+[![Watch the supplied gameplay video](screenshots/night-rain.png)](media/gameplay-demo.mp4)
+
+[Watch or download the gameplay video (MP4)](media/gameplay-demo.mp4). The video was supplied by the project owner; the screenshots above show this updated build.
 
 ## Run
 
@@ -9,18 +21,19 @@ Requires Node.js. In this folder, run `node server.js`, then open `http://127.0.
 ## Play
 
 - WASD or arrow keys: move. Hold Shift to sprint or gallop.
-- E: interact, mount or dismount the nearby horse, and open chests.
+- E: interact, mount or dismount a horse, and open chests.
 - Space: directional sword strike. R: radial knockback.
-- Tab: landmark labels. M: world map. `?`: help. Use the SOUND button to toggle music.
+- Tab: landmark labels. M: world map. `?`: help.
+- SOUND toggles music and effects. VOLUME cycles 25%, 50%, 75%, and 100%.
 
-The world clock starts when you enter Eldoria. Day lasts 30 seconds, followed by 30 seconds of night, repeating continuously. At night, a ring of goblins, spiders, and another hostile creature spawns around the Warden and chases. Other creatures patrol near their mapped lairs. Soldiers defend the village; attacks on villagers reduce village health. Day restores some village health, and defeated enemies return from their lairs with the next night. The Sentinel ally has been removed.
+Day and night each last 30 seconds. Each night, goblins, archers, spiders, and a marsh demon surround and hunt the Warden. Archers fire dodgeable arrows; spiders shoot webs; the marsh demon casts magic. Enemies can also attack in melee. Soldiers defend villagers, and the village health falls when villagers are hit. Defeat opens a restart screen. The dragon demon stays in its northern lair.
 
-## Supplied art status
+## Art and audio
 
-The supplied Soldier frames animate the Warden and village soldiers. The Hobgoblin ZIP supplies outlined goblins and the enlarged dragon demon boss, plus unoutlined art for the marsh demon. The supplied Spider Sprite Sheet animates giant spiders. The Horse Pack supplies eight horse variants placed across the map. The ship sheet supplies boats on the existing water. The Orc sheet is preserved in the source ZIP but is not used as a goblin substitute.
+The Soldier sheet animates the Warden and village soldiers. The Hobgoblin pack supplies goblins, the enlarged dragon demon, and the marsh demon. The Spider Sprite Sheet animates spiders. The Horse Pack supplies eight horse variants across the map. The ship sheet supplies boats. The supplied arrow sprite is used for goblin projectiles.
 
-The three supplied audio files play locally: Secunda ambience by day, Skyrim theme at night, and Song of the Dragonborn near the dragon demon. Audio begins after entering the game and can be toggled off.
+No witch character sprite was supplied. The Witch’s Cottage remains a landmark; a separate witch enemy is pending art. The marsh demon uses Hobgoblin art, as requested.
 
-Horse Pack art: loota9, licensed CC BY 4.0 (attribution: [loota9](http://linktr.ee/loota9)). The three music files were supplied by the user for this local build.
+The three user-supplied music tracks play locally. New combat, hoofstep, and phase sound effects are generated in the browser with Web Audio; no copyrighted game effects were copied.
 
-No network requests or third-party libraries are required.
+Horse Pack art: loota9, CC BY 4.0 ([loota9](http://linktr.ee/loota9)). The music files were supplied by the user for this local build. No network requests or third-party libraries are required.
